@@ -3,7 +3,6 @@ import { AnimatePresence, ScrollView, View } from 'moti'
 import { PanGestureHandlerProps } from 'react-native-gesture-handler'
 import TaskItem from './task-item'
 import { makeStyledComponent } from '../utils/styled'
-import { panGestureHandlerProps } from 'react-native-gesture-handler/lib/typescript/handlers/PanGestureHandler'
 
 const StyledView = makeStyledComponent(View)
 const StyledScrollView = makeStyledComponent(ScrollView)
